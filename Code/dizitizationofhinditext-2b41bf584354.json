@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dizitizationofhinditext",
+  "private_key_id": "2b41bf584354b691f61dba5971f189ef381b6e88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCs4hzleGbuAnpr\nFdqMH3qhNhoLK2AkuiH5fLw06RQmoGXALwV5EOoiyKoDgKh3WC/cQxVKwrlOq+lA\n0n7MlBUE3Au8ptPxrGL+TyYQm3EdribjCrSEPI5TEgHi3M3oJH/VAGxJmo0uKsIR\nw6Re6RyqQ7fxrBZ1BDCixZ/NcvZ5TfWTF/n7eSjr5cq693oTXnUP4K0uNNUyoD4u\nKws4S6H7W4QOcRdVpiVYCKXF38NEHD4S7yZ2aC44/CLRfqWIpqhcG9RvpF/DAKEZ\nr51XNrwNjZRhHaNugQ0nt3cJw4Vl9tbRhRQDeiVmxcdue2rDktT7HiLsVrd8AHva\nSSgI1frlAgMBAAECggEADqLQ3/NmwWEX1I+D0keK9fFy2H26VLmmTS0McO1HjbKY\nEqJYdASk0b+LtyKyAHKIkLzkJVFhZ0HiDCEV54Nk2SW436Z+/G+D7PQt7IuAUssu\n0xtRp31J7knwu3BGhU/ru5Be2odZSu6HQgI+XOOez+JORQk02IC7jlgtPHMuXxwA\nv0BhjmMidN1xL2ln3x+jNVWT9kNlz/c/d4eIyBEM3TceK5ai66MzbQ2YjWQA487H\nQm2ATiIWCH5f4GSQgkjGPWawsJodVVwt3FKK+wT9CLD84/qYR+K5qHSQtSk1aJp/\npzhJ5u7cibuEr/JUIUhOnePqQgoP7yeisXpGRgVa+QKBgQDzFjED/UY26Ayd59AU\nnW86xNk/rAz9HF2OE1p0hYx8VyqF5rGDfrcUXJbBINPP4Gh9DcPxW3u/9fojnEkE\nsAAs1CGP6ruIaVOYyRkClmkeyXWp5ewVGb8gxK8hLCDlFRqyUdFg1M8o+SnYNSec\ne5FY30b6kISmMbGKwQLe3xdYiQKBgQC2ETQ1ku+q/jZal3GT1KkusKQBBwklQILT\nmOHyP4qJz+MujBz9J5IUEs13Srw60u2ToZ6p6mZuNkEQz0mWs8s+d6iYLosQMmAA\ngWLylDuTnUJfhMHEqaIMuR7p67ZHaVSO0ed8ud+rIq+DavlX7OGAnxYNVXkWIvVs\noporY4HAfQKBgQCnecKLXRPjADyxDeTuTwkzFCwZEhBg0goiuHK5lMkVYXiKiEYE\nsmiwPpoetN85eQKEJde5ka3Qs0eDAUnNUPTN7dixrqdFdEuEGAiDH92MuH+4bhAY\n+YQUr215DU4chk2+TWBTtkqDkCakLvr7dKbO9AWS276IQfRwBEpWAp2zAQKBgQCh\nupaOIIAVfMv7nRufHgFLIE4PO5i8JpoQLHZJIniGAszjxELb/hKdEjbCCPk7p7Ky\nuZafiUCEFl2l+Px9iii4zMJOrMmLEbSFvmmO4m4pqkATaXJWp/jzJF55nJDGzqH2\nXC8tdE9jTeRq8NOdbybBgo+sOIjfSR6J6cbZVAMmYQKBgGRVYuFX7rqV40AxOHu0\nBT7jMwa63xHgxxOG5f7mkCHT/EFT9SFvWFWbOJmQaXgEF/sEu3FPZP3eSg6dUVGC\nuLFKJtiUwPHq+aLdqVpo6rk2ZVDn0frPzI5qiTbi5fIPVz/BS+LCNfeR5VFUlf3U\nDgazfNfNfTbRgUmkdnR0s/82\n-----END PRIVATE KEY-----\n",
+  "client_email": "apurv-342@dizitizationofhinditext.iam.gserviceaccount.com",
+  "client_id": "114961279928633894436",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/apurv-342%40dizitizationofhinditext.iam.gserviceaccount.com"
+}

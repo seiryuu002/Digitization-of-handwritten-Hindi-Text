@@ -5,18 +5,16 @@ import matplotlib.pyplot as plt
 import pytesseract
 # import tensorflow as tf
 
-pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR"
+pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
-file = "F:\\Lecture notes\\Sem-8\\MP(8)\\Code\\ka.jpeg"
-
-img = cv2.imread(file)
-cv2.imshow("image", img)
-cv2.resize(img, (320, 320))
-cv2.waitKey(0)
-
+file = "F:\\Lecture notes\\Sem-8\\MP(8)\\Resources\\letters.jpeg"
+img =cv2.imread(file)
+# img = cv2.resize(img, None, fx= 0.3, fy= 0.3) 
+img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+img = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 11)
+# img = cv2.drawContours(img)
+# print(pytesseract.image_to_string(img, lang= 'hin'))
 
-ret, thresh2 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY_INV)
-
-cv2.imshow("image2", thresh2)
+cv2.imshow("image", img)
 cv2.waitKey(0)
