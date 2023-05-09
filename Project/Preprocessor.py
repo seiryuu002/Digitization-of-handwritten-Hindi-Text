@@ -50,7 +50,7 @@ class PreProcessor:
         cnts = cnts[0] if len(cnts) == 2 else cnts[1]
         for c in cnts:
             area = cv2.contourArea(c)
-            if area < 100:
+            if area < 50:
                 cv2.drawContours(dilate, [c], -1, 0, -1)
         result = 255 - dilate
         result = cv2.GaussianBlur(result, (3, 3), 0)
