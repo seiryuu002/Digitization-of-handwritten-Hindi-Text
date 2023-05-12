@@ -1,9 +1,6 @@
-import asrtoolkit
-from asrtoolkit import wer, cer
 import cv2
 import io
 from deskew import determine_skew
-from fuzzywuzzy import fuzz, process
 import numpy as np
 from PIL import Image
 import pytesseract
@@ -75,14 +72,7 @@ class PreProcessor:
         docText = response.full_text_annotation.text
         with open('output.txt', "w", encoding="utf-8") as f:
             f.write(docText)
-        f.close()
-        CErate, WErate, Fuzzration = cer(ground_truth, docText), wer(ground_truth, docText), fuzz.ratio(ground_truth, docText) 
+        f.close() 
         return docText
 
-
-    def Accuracy(self, ground_truth = None, text = None)
         
-        CErate, WErate, Fuzzratio = cer(ground_truth, text), wer(
-        ground_truth, text), fuzz.ratio(ground_truth, text)
-        return (CErate, WErate, Fuzzratio)
-

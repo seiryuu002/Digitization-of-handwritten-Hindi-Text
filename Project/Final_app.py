@@ -1,5 +1,6 @@
 import streamlit as st
 from Preprocessor import PreProcessor as pp
+from asrtoolkit import wer, cer
 
 prep = pp()
 
@@ -28,4 +29,14 @@ if uploaded_file is not None:
   with my_expander2:
     st.write(detected_text)
   
-  
+  Cerate = cer(ground_truth, detected_text)
+  Werate = wer(ground_truth, detected_text)
+
+  my_expander3 = st.expander(label='Accuracy')
+  with my_expander3:
+    st.write("Ground truth: ", ground_truth)
+    st.write("Detected Text: ", detected_text)
+    st.write("Character error rate : ", Cerate)
+    st.write("Word error rate: ", Werate)
+
+
