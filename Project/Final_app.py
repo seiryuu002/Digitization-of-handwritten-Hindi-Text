@@ -3,6 +3,8 @@ from Preprocessor import PreProcessor as pp
 
 prep = pp()
 
+ground_truth = st.text_input("Ground Truth")
+
 uploaded_file = st.file_uploader("Choose a file")
 
 if uploaded_file is not None:
@@ -21,7 +23,9 @@ if uploaded_file is not None:
     st.image(processed_image, clamp=True)
   
   detected_text = prep.Digitizer(path)
-  
+
   my_expander2 = st.expander(label='Digitized text')
   with my_expander2:
     st.write(detected_text)
+  
+  

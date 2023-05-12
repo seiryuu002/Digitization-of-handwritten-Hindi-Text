@@ -76,5 +76,13 @@ class PreProcessor:
         with open('output.txt', "w", encoding="utf-8") as f:
             f.write(docText)
         f.close()
+        CErate, WErate, Fuzzration = cer(ground_truth, docText), wer(ground_truth, docText), fuzz.ratio(ground_truth, docText) 
         return docText
+
+
+    def Accuracy(self, ground_truth = None, text = None)
+        
+        CErate, WErate, Fuzzratio = cer(ground_truth, text), wer(
+        ground_truth, text), fuzz.ratio(ground_truth, text)
+        return (CErate, WErate, Fuzzratio)
 
