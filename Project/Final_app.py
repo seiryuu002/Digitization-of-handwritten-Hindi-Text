@@ -36,7 +36,7 @@ if uploaded_file is not None:
   with my_expander3:
     st.write("Ground truth: ", ground_truth)
     st.write("Detected Text: ", detected_text)
-    st.write("Character error rate : ", Cerate)
-    st.write("Word error rate: ", Werate)
+    st.write("Word error rate : ", Cerate)
+    st.write("Character error rate: ", Werate)
 
 
